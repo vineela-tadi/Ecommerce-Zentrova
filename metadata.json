@@ -1,0 +1,6 @@
+{
+  "name": "Zentrova",
+  "description": "Next-generation premium e-commerce platform combining innovation, convenience, and curated style across Electronics, Fashion, Accessories, and Beauty.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
