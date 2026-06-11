@@ -167,7 +167,7 @@ export default function AiChatbot({
   };
 
   return (
-    <div id="ai-chatbot-widget" className="fixed bottom-6 right-6 z-40 font-sans">
+    <div id="ai-chatbot-widget" className="fixed bottom-6 right-6 z-50 font-sans">
       
       {/* Floating Toggle Icon */}
       {!isOpen && (
@@ -197,7 +197,7 @@ export default function AiChatbot({
 
       {/* Main Expandable Chataroo Window */}
       {isOpen && (
-        <div id="chatbot-frame" className="w-[360px] sm:w-[400px] h-[550px] bg-white rounded-3xl border border-slate-100 shadow-2xl flex flex-col overflow-hidden animate-fade-in-up">
+        <div id="chatbot-frame" className="w-[calc(100vw-48px)] sm:w-[400px] h-[min(550px,calc(100vh-100px))] max-h-[550px] bg-white rounded-3xl border border-slate-100 shadow-2xl flex flex-col overflow-hidden animate-fade-in-up">
           
           {/* Header */}
           <div className="p-4 bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-600 text-white flex items-center justify-between shadow-md">
@@ -213,8 +213,10 @@ export default function AiChatbot({
               </div>
             </div>
             <button 
+              id="chatbot-close-btn"
               onClick={() => setIsOpen(false)} 
-              className="p-1 rounded-full hover:bg-white/10 text-white/85 hover:text-white transition-colors"
+              className="p-1.5 rounded-full hover:bg-white/25 text-white/95 hover:text-white transition-all cursor-pointer flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-white/50"
+              aria-label="Close Chat"
             >
               <X className="w-5 h-5" />
             </button>
