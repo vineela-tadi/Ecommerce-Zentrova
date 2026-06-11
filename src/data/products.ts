@@ -101,10 +101,10 @@ export const PRODUCTS: Product[] = [
     price: 1399,
     rating: 4.9,
     reviewCount: 88,
-    imageUrl: "https://images.unsplash.com/photo-1496181130204-755241524eab?w=800&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&auto=format&fit=crop&q=80",
     additionalImages: [
       "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1496181130204-755241524eab?w=800&auto=format&fit=crop&q=80",
       "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800&auto=format&fit=crop&q=80"
     ],
     description: "Designed for content creators and elite program developers. Packed with custom processors, 32GB high-speed memory, ultra-fast SSD storage, and an incomparable Liquid Pro-Motion display.",
@@ -267,8 +267,9 @@ export const PRODUCTS: Product[] = [
     discountPercent: 25,
     rating: 4.8,
     reviewCount: 38,
-    imageUrl: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&auto=format&fit=crop&q=80",
+    imageUrl: "https://files.catbox.moe/hfrc6x.jpg",
     additionalImages: [
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&auto=format&fit=crop&q=80",
       "https://images.unsplash.com/photo-1574164904299-3a102b110380?w=800&auto=format&fit=crop&q=80",
       "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=800&auto=format&fit=crop&q=80"
     ],
@@ -434,11 +435,11 @@ export const PRODUCTS: Product[] = [
     discountPercent: 23,
     rating: 4.7,
     reviewCount: 420,
-    imageUrl: "https://images.unsplash.com/photo-1608248597481-496100c80836?w=800&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&auto=format&fit=crop&q=80",
     additionalImages: [
       "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&auto=format&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=800&auto=format&fit=crop&q=80"
+      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=800&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1608248597481-496100c80836?w=800&auto=format&fit=crop&q=80"
     ],
     description: "Unravel radiating brilliance. Driven by multi-weight hyaluronic acid complexes, bio-peptides, and certified organic wild rose hip distillates, this high-absorption serum plumps dehydrated cells.",
     features: [
@@ -576,6 +577,191 @@ export const PRODUCTS: Product[] = [
     ],
     faqs: [
       { question: "How do I clean cork?", answer: "A quick wipe down with a damp cloth and natural lavender water keeps the mat fresh." }
+    ]
+  },
+  {
+    id: "elec-5",
+    title: "Aethera Mechanical Backlit Keyboard",
+    brand: "Zentrova Tech",
+    category: "Electronics",
+    subCategory: "Keyboards",
+    price: 129,
+    originalPrice: 159,
+    discountPercent: 18,
+    rating: 4.8,
+    reviewCount: 92,
+    imageUrl: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=800&auto=format&fit=crop&q=80",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1595225476474-87563907a212?w=800&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1601445638532-3c6f6c3aa1d6?w=800&auto=format&fit=crop&q=80"
+    ],
+    description: "Type with supreme satisfaction. The Aethera Mechanical Keyboard features hand-lubricated silent linear switches, customized sound-dampening foam, and full spectrum dynamic ambient layout lighting.",
+    features: [
+      "Hot-swappable 5-pin key switch sockets",
+      "High-density PBT double-shot designer keycaps",
+      "Double-level gasket design with silicon dampening cushions",
+      "Tri-mode connectivity: Bluetooth 5.1, 2.4Ghz dongle, or Type-C"
+    ],
+    specifications: [
+      { label: "Form Factor", value: "75% compact executive layout" },
+      { label: "Switches", value: "Custom pre-lubed Linear Cream switches" },
+      { label: "Battery Volume", value: "4000mAh up to 200 hours without lighting" }
+    ],
+    sku: "ZV-ELEC-KB752",
+    inStock: true,
+    stockCount: 24,
+    colors: ["Space Charcoal", "Nordic Glacier White"],
+    isTrending: true,
+    reviews: [
+      { id: "rev-50-1", userName: "Arjun Rao", rating: 5, date: "2026-06-03", comment: "The tactile feedback works beautifully. The keystrokes emit a soft marbly thock sound. Superb finish.", verified: true }
+    ],
+    faqs: [
+      { question: "Is this keyboard compatible with macOS?", answer: "Yes, it has a dedicated system switch and includes keycaps for both Windows and Mac in the package." }
+    ]
+  },
+  {
+    id: "fash-4",
+    title: "Aura Premium Chelsea Leather Boots",
+    brand: "Zentrova Atelier",
+    category: "Fashion",
+    subCategory: "Footwear",
+    price: 169,
+    originalPrice: 219,
+    discountPercent: 22,
+    rating: 4.9,
+    reviewCount: 110,
+    imageUrl: "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=800&auto=format&fit=crop&q=80",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop&q=80"
+    ],
+    description: "Designed for seamless style and comfort. Hand-styled in Italy from supreme weather-resistant oiled leather, these boots feature flexible elastic panels and premium reinforced heels.",
+    features: [
+      "Handcrafted top-grain oiled nubuck leather",
+      "Comfort-fitting elasticated side gussets and pull tabs",
+      "Anti-skid custom synthetic outsoles",
+      "Ortholite triple-cushioning memory insoles"
+    ],
+    specifications: [
+      { label: "Material", value: "100% Genuine Italian Nubuck Leather" },
+      { label: "Heel Height", value: "1.2 inch block heels" },
+      { label: "Origin", value: "Designed in Milan, Handcrafted in Tuscany" }
+    ],
+    sku: "ZV-FASH-CB991",
+    inStock: true,
+    stockCount: 15,
+    colors: ["Cognac Amber", "Stealth Charcoal Onyx"],
+    sizes: ["7", "8", "9", "10", "11"],
+    isBestSeller: true,
+    reviews: [
+      { id: "rev-51-1", userName: "Liam Fletcher", rating: 5, date: "2026-05-29", comment: "These boots fit true to size. There is almost no break-in period required, the leather is astonishingly supple yet solid.", verified: true }
+    ],
+    faqs: [
+      { question: "Are they waterproof?", answer: "The oiled nubuck is water-resistant against moderate snow and rain, though we recommend applying leather spray yearly for full lock." }
+    ]
+  },
+  {
+    id: "acc-4",
+    title: "Sloane Hand-Stitched Passport Wallet",
+    brand: "Zentrova Leathercraft",
+    category: "Accessories",
+    subCategory: "Business Travel",
+    price: 49,
+    originalPrice: 69,
+    discountPercent: 28,
+    rating: 4.8,
+    reviewCount: 34,
+    imageUrl: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&auto=format&fit=crop&q=80",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?w=800&auto=format&fit=crop&q=80"
+    ],
+    description: "Durable luxury for global nomads. Built with vegetable-tanned full-grain leather, this passport sleeve carries boarding passes, banknotes, and cards securely while fitting perfectly into breast pockets.",
+    features: [
+      "Secured space for passport and ticket files",
+      "RFID signal blocking lining",
+      "Saddle-stitched by hand using high strength waxed threat"
+    ],
+    specifications: [
+      { label: "Dimensions", value: "5.5 x 3.9 inches compact format" },
+      { label: "Bays", value: "1 passport section, 1 boarding ticket slot, 4 credit card spaces" }
+    ],
+    sku: "ZV-ACC-PW110",
+    inStock: true,
+    stockCount: 35,
+    colors: ["Classic Brown", "Midnight Charcoal"],
+    reviews: [
+      { id: "rev-52-1", userName: "Nadia Volkov", rating: 5, date: "2026-06-01", comment: "Beautiful textures. It keeps all my crucial papers organized in a single location.", verified: true }
+    ],
+    faqs: [
+      { question: "Can standard cards fit in the slots?", answer: "Yes, the slots are custom carved to perfectly snug international credit cards, driver licenses and badges." }
+    ]
+  },
+  {
+    id: "beau-3",
+    title: "Atelier Lavender Botanical Night Cream",
+    brand: "Zentrova Organics",
+    category: "Beauty",
+    subCategory: "Skincare",
+    price: 52,
+    originalPrice: 65,
+    discountPercent: 20,
+    rating: 4.7,
+    reviewCount: 128,
+    imageUrl: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=800&auto=format&fit=crop&q=80",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&auto=format&fit=crop&q=80"
+    ],
+    description: "Awaken your skin's vibrant radiance. Powered by natural retinol alternatives, custom French lavender distillate, and skin-enriching peptide structures to reconstruct cellular layout while sleeping.",
+    features: [
+      "Accelerated nighttime lipid layer restoration",
+      "Fortified with clean cold-pressed rosehip concentrates",
+      "Cruelty-free, vegan, dermatologist verified hypoallergenic"
+    ],
+    specifications: [
+      { label: "Volume", value: "50 ml (1.7 fl oz)" },
+      { label: "Key Essential", value: "French Lavender Distillate & Bio-retinol blend" }
+    ],
+    sku: "ZV-BEAU-LN440",
+    inStock: true,
+    stockCount: 65,
+    isTrending: true,
+    reviews: [
+      { id: "rev-53-1", userName: "Camila Ortiz", rating: 5, date: "2026-05-24", comment: "Extremely rich body and lovely scent. Waking up with deeply hydrated glowing skin.", verified: true }
+    ],
+    faqs: [
+      { question: "Is this suitable for oily skin types?", answer: "Yes, the formula is non-comedogenic and lightweight enough that it balances natural sebum during the evening." }
+    ]
+  },
+  {
+    id: "life-3",
+    title: "Aero Diffuser CleanAir Mist",
+    brand: "Zentrova Home",
+    category: "Lifestyle",
+    subCategory: "Home Decor",
+    price: 59,
+    rating: 4.6,
+    reviewCount: 41,
+    imageUrl: "https://images.unsplash.com/photo-1595131978512-ef9cd0b115ea?w=800&auto=format&fit=crop&q=80",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=800&auto=format&fit=crop&q=80"
+    ],
+    description: "Calm your senses. The Aero Diffuser creates a cool micro-fine mist of aromatherapy while emitting warm, comforting wellness light waves for premium relaxation.",
+    features: [
+      "Quiet dynamic ultrasonic wave tech",
+      "Auto shutoff safeguards with multi-hour timer selections",
+      "Ambient luxury glow LED strips"
+    ],
+    specifications: [
+      { label: "Water Basin Capacity", value: "300 ml" },
+      { label: "Output Duration", value: "Up to 8 hours clean continuous operation" }
+    ],
+    sku: "ZV-LIFE-AD120",
+    inStock: true,
+    stockCount: 40,
+    reviews: [
+      { id: "rev-54-1", userName: "Marcus Vance", rating: 5, date: "2026-06-08", comment: "Extremely compact and runs entirely silently. A beautiful addition to standard home workspaces.", verified: true }
+    ],
+    faqs: [
+      { question: "Can I use standard tap water?", answer: "Yes, the filter layout comfortably handles standard tap water, although purified or distilled water is recommended to keep mineral buildup low." }
     ]
   }
 ];
