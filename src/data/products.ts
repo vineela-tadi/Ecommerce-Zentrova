@@ -740,8 +740,9 @@ export const PRODUCTS: Product[] = [
     price: 59,
     rating: 4.6,
     reviewCount: 41,
-    imageUrl: "https://images.unsplash.com/photo-1595131978512-ef9cd0b115ea?w=800&auto=format&fit=crop&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1602928321679-560bb453f190?w=800&auto=format&fit=crop&q=80",
     additionalImages: [
+      "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&auto=format&fit=crop&q=80",
       "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=800&auto=format&fit=crop&q=80"
     ],
     description: "Calm your senses. The Aero Diffuser creates a cool micro-fine mist of aromatherapy while emitting warm, comforting wellness light waves for premium relaxation.",
